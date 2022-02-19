@@ -1,7 +1,14 @@
 package classwork;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println(" lol");
+        Scanner scanner = new Scanner (System.in);
+
+        for(int i = 100;i>=1;i--){
+            System.out.println(i);
+        }
+
     }
 }
